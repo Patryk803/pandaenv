@@ -2,7 +2,7 @@ VAGRANT_COMMAND = ARGV[0]
 
 Vagrant.configure("2") do |config|
   config.vm.provider "virtualbox" do |v|
-    v.memory = 4096
+    v.memory = 8192
     v.cpus = 3
   end
   config.vm.box = "bento/ubuntu-18.04"
